@@ -1,19 +1,27 @@
 
 p {
   color:#666666;
-font-family:Helvetica, Arial, sans-serif;
-font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
-font-family: 'Merriweather', serif;
+font-family: 'Rochester', cursive;
+font-size: 125%;
+text-align:center;
+
 }
 
 h1{
+    font-size: 300%;
   font-family: Georgia, "Times New Roman", serif;
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
-
+  display: block;
+  margin:0;
+  text-align:center;
 }
 
 body{
+  border-style:none;
+  display: block;
+  margin:auto;
   background-color:#ebe3ce;
+
 }
 #container{
     width:95%;
@@ -21,16 +29,15 @@ body{
 margin:0 auto;
 }
 #nav li{
+  font-size: 125%;
   list-style-type:none;
-  float:left;
   margin:0;
   padding:0;
-  width:25%;
 }
 #nav a:link, #nav a:visited{
   display:block;
   color:#ffffff;
-  background-color:#98bf21;
+  background-color:#006400;
   font-weight:bold;
   text-align:center;
   text-decoration:none;
@@ -39,20 +46,14 @@ margin:0 auto;
 
 }
 #nav a:hover, #nav a:active{
-  background-color:#7a991a;
+  background-color:#228b22;
 }
 
 
 #nav{
   padding:0;
 }
-.caption{
-  color:black;
-  font-family:Georgia, "Times New Roman", serif;
-  font-size:0.8em;
-  margin-top:0;
-  font-style:italic;
-  text-align:right;
+
 }
   #footer{
     color:black;
@@ -66,4 +67,6 @@ margin:0 auto;
 
 img{
   border-style:none;
+  display: block;
+  margin:auto;
 }
