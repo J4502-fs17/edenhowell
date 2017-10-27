@@ -63,8 +63,28 @@ margin:0 auto;
     border-color:black;*/
   }
 
-img{
+.img{
   border-style:none;
   display: block;
   margin:auto;
+}
+
+.nav {
+  display: flex;
+  flex direction:row
+}
+
+@media (min-width: 600px) {
+	.nav {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.nav {
+    flex-direction:row;
+		margin-right: auto;
+	}
 }
