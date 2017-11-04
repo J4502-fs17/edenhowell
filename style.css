@@ -40,13 +40,13 @@ h1{
   margin:0;
   text-align:Right;
 }
-  img {
-    border: none;
-    float: right;
-    width: 40%;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-top: 115px;
+img {
+  border: none;
+  float: right;
+  width: 40%;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-top: 115px;
 }
 
 body{
@@ -57,16 +57,6 @@ body{
 
 }
 
-#section1 a:link{
-  Display:block;
-  color:#2C313D;
-  text-align: center;
-  text-decoration: none;
-  width:50%;
-  background-color:#D4E3FF;
-  margin:0 auto;
-  padding:5px;
-}
 #nav li{
   font-size: 125%;
   list-style-type:none;
@@ -81,7 +71,7 @@ body{
   font-weight:bold;
   text-align:center;
   text-decoration:none;
-  padding:7px;
+  padding:10px;
   font-family:Helvetica, Arial, sans-serif;
 
 }
@@ -89,21 +79,13 @@ body{
   background-color:#000000;
 }
 
-#section1 {
-  border: 3px
-  color:#D4E3FF;
-  margin:50%;
-}
-
-#nav{
-  padding:0;
-}
   #footer{
     color:black;
     font-family:Georgia, "Times New Roman", serif;
     font-size:0.8em;
     padding:6px;
-    border-top:1px solid black;
+    padding-top: 10px;
+    border-top:10px solid black;
   }
 
 
@@ -132,14 +114,6 @@ img {
   display: block;
   width: 30%;
   margin-top: 0.5em;
-}
-
-.img {
-  width: 25%;
-  max-width: 200px;
-  float: center;
-  margin-right: 20px;
-}
 }
 
 @media screen and (min-width: 800px) {
