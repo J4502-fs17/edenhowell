@@ -39,7 +39,7 @@ h1{
   font-family: 'Maven Pro', sans-serif;
   display: block;
   margin:0;
-  text-align:center;
+  text-align:Right;
 }
   img {
     border: none;
@@ -47,6 +47,7 @@ h1{
     width: 40%;
     margin-right: 10px;
     padding-left: 10px;
+    padding-top: 115px;
 }
 
 body{
