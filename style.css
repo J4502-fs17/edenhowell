@@ -1,3 +1,5 @@
+
+
 .cards {
     padding: 0;
     list-style: none;
@@ -38,15 +40,14 @@ h1{
   font-family: 'Maven Pro', sans-serif;
   display: block;
   margin:0;
-  text-align:Right;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align:center;
 }
 img {
   border: none;
   float: right;
-  width: 40%;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-top: 115px;
+
 }
 
 body{
@@ -61,7 +62,7 @@ body{
   font-size: 125%;
   list-style-type:none;
   margin:0;
-  padding:0;
+  padding:60;
   text-align: center;
 }
 #nav a:link, #nav a:visited {
@@ -72,6 +73,10 @@ body{
   text-align:center;
   text-decoration:none;
   padding:10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:70px;
+  padding-right:70px;
   font-family:Helvetica, Arial, sans-serif;
 
 }
@@ -113,7 +118,7 @@ body{
 img {
   display: block;
   width: 30%;
-  margin-top: 0.5em;
+  float: right;
 }
 
 @media screen and (min-width: 800px) {
