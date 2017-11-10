@@ -35,9 +35,6 @@ text-align:left;
 
 }
 
-.menu-trigger {
-  order: 1;
-}
 
 h1{
   order: 2;
@@ -146,12 +143,6 @@ nav a:hover, nav a:active{
     border-top:10px solid black;
   }
 
-  @media (min-width: 1000px) {
-  nav {
-    display: flex;
-    flex direction:row
-  }
-  }
 
   @media (min-width: 600px) {
   	nav {
@@ -165,6 +156,7 @@ nav a:hover, nav a:active{
   	nav {
       flex-direction:row;
   		margin-right: auto;
+      flex-wrap: wrap;
   	}
   }
   img {
@@ -176,4 +168,11 @@ nav a:hover, nav a:active{
   @media screen and (min-width: 800px) {
   .item1 {
     margin-right: auto;
+  }
+
+  @media (min-width: 1000px) {
+  nav {
+    display: flex;
+    flex direction:row
+  }
   }
