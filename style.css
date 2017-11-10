@@ -35,7 +35,12 @@ text-align:left;
 
 }
 
+.menu-trigger {
+  order: 1;
+}
+
 h1{
+  order: 2;
   font-size: 300%;
   font-family: 'Maven Pro', sans-serif;
   display: block;
@@ -44,6 +49,9 @@ h1{
   padding-bottom: 20px;
   text-align:center;
 }
+
+
+
 img {
   border: none;
   float: right;
@@ -61,6 +69,46 @@ body{
   background-color:#7D8CAD;
 
 }
+
+#nav ul li {
+  display: block;
+  border-top:1px #79896d solid;
+}
+
+#nav a {
+  color: #f8ecc2;
+  display: block;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  background-color: #65a8a6;
+  margin: 0;
+  padding: 0 10px;
+}
+
+
+#nav ul {
+  display: none;
+
+}
+
+@media screen and (min-width: 700px) {
+
+  #nav ul {
+    display: flex;
+  }
+
+  #nav ul li {
+    display: none;
+  }
+
+  }
+}
+
 
 #nav li{
   font-size: 125%;
@@ -86,6 +134,8 @@ body{
 }
 #nav a:hover, #nav a:active{
   background-color:#000000;
+
+
 }
 
   #footer{
@@ -97,35 +147,34 @@ body{
     border-top:10px solid black;
   }
 
+  @media (min-width: 1000px) {
+  #nav {
+    display: flex;
+    flex direction:row
+  }
+  }
 
-@media (min-width: 1000px) {
-#nav {
-  display: flex;
-  flex direction:row
-}
-}
+  @media (min-width: 600px) {
+  	#nav {
+  		flex-direction: column;
+  		justify-content: center;
+  	}
+  }
 
-@media (min-width: 600px) {
-	#nav {
-		flex-direction: column;
-		justify-content: center;
-	}
-}
+  @media (min-width: 800px) {
 
-@media (min-width: 800px) {
+  	#nav {
+      flex-direction:row;
+  		margin-right: auto;
+  	}
+  }
+  img {
+    display: block;
+    width: 30%;
+    float: right;
+  }
 
-	#nav {
-    flex-direction:row;
-		margin-right: auto;
-	}
-}
-img {
-  display: block;
-  width: 30%;
-  float: right;
-}
-
-@media screen and (min-width: 800px) {
-.item1 {
-  margin-right: auto;
-}
+  @media screen and (min-width: 800px) {
+  .item1 {
+    margin-right: auto;
+  }
